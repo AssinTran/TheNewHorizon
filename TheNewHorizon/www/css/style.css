@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    color: whitesmoke;
+}
+
+html {
+    background-color: #202020;
+}
+
+.wrapper {
+    background-color: #202020;
+}
+
+.banner {
+    background-image: url(../img/z5940335030980_42800a984df6e7321c3ad819d3c8980a.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    z-index: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    padding: 0 50px;
+    display: flex !important;
+    background-color: black !important;
+    z-index: 1;
+}
+
+header h1 {
+    width: 30rem;
+}
+
+header h1 a {
+    line-height: 70px;
+    font-size: 2.5rem;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: white;
+}
+
+ul {
+    margin: auto 0;
+    margin-left: 1rem;
+    display: flex;
+    width: 50vw;
+    height: 7rem;
+    list-style-type: none;
+}
+
+.main-menu li {
+    margin-right: 4rem;
+}
+
+ul a {
+    font-size: 2rem;
+    line-height: 7rem;
+}
+
+ul li a:hover::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2px;
+    color: gold !important;
+    margin-top: -2rem;
+}
+
+ul li a:hover {
+    color: gold !important;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.content,
+b {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+section#Storyline {
+    padding: 8rem 0;
+}
+
+section#Storyline .title {
+    margin-bottom: 5rem;
+}
+
+footer {
+    padding-top: 1rem;
+    width: 100%;
+    background-color: transparent;
+    font-size: 2rem;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gold;
+}
+
+footer .btn{
+    padding: 0 !important;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 3rem !important;
+    margin: 3rem 0 !important;
+}
+
+footer p {
+    text-align: center;
+}
