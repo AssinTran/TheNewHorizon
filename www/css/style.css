@@ -87,12 +87,37 @@ b {
     text-align: justify;
 }
 
-section#Storyline {
+section{
     padding: 8rem 0;
 }
 
 section#Storyline .title {
     margin-bottom: 5rem;
+}
+
+.item{
+    width: 30vw;
+}
+
+.date{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+section h3{
+    margin: 1rem 0 !important;
+}
+
+.item .content{
+    max-width: 30vw;
+}
+
+#Support a{
+    color: goldenrod;
+}
+
+#Support a:hover{
+    color: gold;
 }
 
 footer {
