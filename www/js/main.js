@@ -9,11 +9,18 @@ const open = () => {
 
 const close = () => {
     var button = document.querySelector("#close")
+    var bugger = document.querySelector(".bugger")
 
     button.addEventListener("click", () => {
-        var bugger = document.querySelector(".bugger")
         bugger.classList.toggle("hide")
     })
+
+    var list = document.querySelectorAll(".bugger-menu")
+    list.forEach(element => {
+        element.addEventListener("click", () => {
+            bugger.classList.toggle("hide")
+        })
+    });
 }
 
 open()

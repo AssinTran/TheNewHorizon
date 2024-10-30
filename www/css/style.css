@@ -156,6 +156,10 @@ footer p {
         display: none;
     }
 
+    header h1 {
+        width: 40vw;
+    }
+
     ul li a:hover::after {
         content: '';
         display: inline;
@@ -216,7 +220,7 @@ footer p {
         font-size: 3rem;
     }
 
-    .bugger .main-menu{
+    .bugger .bugger-menu{
         margin-top: 2rem;
         flex-direction: column;
     }
