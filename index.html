@@ -19,13 +19,30 @@
     <div class="position-relative wrapper">
       <header class="position-fixed">
         <h1><a class="text-white" href="#">The New Horizon</a></h1>
-        <ul class="main-menu">
+        <ul class="main-menu ">
           <li><a class="text-white" href="#">Games</a></li>
           <li><a class="text-white" href="#News">News</a></li>
           <li><a class="text-white" href="#Storyline">Storyline</a></li>
           <li><a class="text-white" href="#Support">Support</a></li>
         </ul>
+        <button id="open" class="btn position-absolute">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGxJREFUSEvtlcENwCAMA/FmjMZo3SxUlfgA/TmYhxnApxyOgiJ6EHGLwcfMW/WnOiIa0zmAJW+rOl4yGbxw7gIzp/3LcqtHqytTN4BnzrurXMp10qhm/q/XaRhwq7Vn0a3OMOCzmGF1mylT3QGvpigfXkEqFAAAAABJRU5ErkJggg=="
+          />
+        </button>
       </header>
+
+      <div class="bugger hide position-fixed">
+        <div class="board position-absolute">
+          <button id="close" class="btn position-absolute">X</button>
+          <ul class="main-menu">
+            <li><a class="text-white" href="#">Games</a></li>
+            <li><a class="text-white" href="#News">News</a></li>
+            <li><a class="text-white" href="#Storyline">Storyline</a></li>
+            <li><a class="text-white" href="#Support">Support</a></li>
+          </ul>
+        </div>
+      </div>
 
       <div class="banner position-relative"></div>
 
@@ -76,13 +93,17 @@
       <section id="Support" class="container">
         <h2 class="title">Support</h2>
         <p class="content">
-          Contact us at <a
+          Contact us at
+          <a
             class="content"
             href="https://www.facebook.com/profile.php?id=61566087853547"
             target="_blank"
             >The New Horizon Fanpage</a
-          > or mail to
-          <a class="content" href="mailto:catcodescompany@gmail.com">Catcode email</a>
+          >
+          or mail to
+          <a class="content" href="mailto:catcodescompany@gmail.com"
+            >Catcode email</a
+          >
         </p>
       </section>
       <footer>

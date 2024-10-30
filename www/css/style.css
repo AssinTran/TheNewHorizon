@@ -33,12 +33,16 @@ header {
 }
 
 header h1 {
-    width: 30rem;
+    width: 40vw;
 }
 
 header h1 a {
     line-height: 70px;
     font-size: 2.5rem;
+}
+
+header .btn{
+    display: none;
 }
 
 a:hover {
@@ -145,4 +149,79 @@ h3{
 
 footer p {
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    header .main-menu{
+        display: none;
+    }
+
+    ul li a:hover::after {
+        content: '';
+        display: inline;
+        width: 0;
+        height: 0;
+        color: gold !important;
+        margin-top: -2rem;
+    }
+
+    header .btn{
+        display: block;
+        right: 1rem;
+        top: 1.2rem;
+    }
+
+    .banner {
+        background-image: url(../img/z5940335030980_42800a984df6e7321c3ad819d3c8980a.jpg);
+        width: 100vw;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        z-index: 0;
+    }
+
+    #News img{
+        width: 80vw;
+    }
+
+    .item{
+        width: 80vw;
+    }
+
+    .item .content{
+        max-width: 80vw;
+    }
+
+    .bugger{
+        width: 100vh;
+        height: 100vh;
+        background-color: #00000080;
+        z-index: 5;
+        right: 0;
+        overflow: hidden;
+    }
+
+    .bugger .board{
+        width: 50vw;
+        height: 100vh;
+        background-color: #000;
+        right: 0;
+    }
+
+    .bugger .btn{
+        color: whitesmoke;
+        right: 1rem;
+        top: 1rem;
+        font-size: 3rem;
+    }
+
+    .bugger .main-menu{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+} 
+
+.hide{
+    display: none;
 }
